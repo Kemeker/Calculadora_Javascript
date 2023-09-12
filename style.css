@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+}
+
+/* Estilos para o display */
+.display {
+    border: 2px solid #333; /* Borda em torno do display */
+    padding: 10px;
+    width: 500px; /* Largura do display ocupará 100% do contêiner */
+    text-align: right; /* Alinhar o texto à direita no display */
+    font-size: 24px; /* Tamanho da fonte do display */
+    background-color: #fff; /* Cor de fundo do display */
+    margin-bottom: 10px; /* Adiciona um espaço entre o display e os botões */
+}
+
+/* Estilos para os botões */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #21a528; /* Cor de fundo dos botões */
+    border: 1px solid #ccc; /* Borda dos botões */
+    cursor: pointer;
+    display: inline-block; /* Faz com que os botões fiquem um ao lado do outro */
+    width: 50px; /* Largura dos botões */
+}
+
+.corBotao{
+    background-color: red;
+}

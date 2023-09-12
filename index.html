@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container" id="calculadora">
+        <div class="display" id="tela">0</div> <!-- Display para mostrar números e resultados -->
+        
+    </div>
+    <div class="botoesNumerico"> 
+        <button onclick="adicionarNumero('1')">1</button>
+        <button onclick="adicionarNumero('2')">2</button>
+        <button onclick="adicionarNumero('3')">3</button>
+        <button onclick="adicionarNumero('4')">4</button>
+        <button onclick="adicionarNumero('5')">5</button>
+        <button onclick="adicionarNumero('6')">6</button>
+        <button onclick="adicionarNumero('7')">7</button>
+        <button onclick="adicionarNumero('8')">8</button>
+        <button onclick="adicionarNumero('9')">9</button>
+
+    </div>
+    <div class="botoesOperacao">
+        
+        <button onclick="selecionarOperacao('+')">+</button>
+        <button onclick="selecionarOperacao('-')">-</button>
+        <button onclick="selecionarOperacao('*')">*</button>
+        <button onclick="selecionarOperacao('/')">/</button>
+        <button onclick="calcularResultadoFinal()">=</button>
+        <button onclick="limpar()" class="corBotao">C</button> <!-- Botão para limpar a calculadora -->
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
